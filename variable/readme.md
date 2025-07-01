@@ -61,9 +61,11 @@ const List<int> numbers = [1, 2, 3];
 const Map<String, String> countries = {'ET': 'Ethiopia'};
 ```
 🧠 Summary
-***Concept	        Keyword	        Usage***
-Mutable	        var, dynamic	Changeable values
-Immutable	    final, const	Fixed values
-Lazy Init	    late	        Postpone initialization
-Nullable	    String?	        May be null
-***Type Inference	var	            Let Dart guess the type***
+|Concept        |Keyword	    |Usage                  |
+|---------------|---------------|-----------------------|
+|Mutable	    |var, dynamic	|Changeable values      |
+|Immutable	    |final, const	|Fixed value            |
+|Lazy Init	    |late	        |Postpone initialization|
+|Nullable	    |String?	    |May be null            |
+|Type Inference	|var	        |Let Dart guess the type|
+
