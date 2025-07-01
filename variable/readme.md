@@ -3,7 +3,7 @@
 int _counter;
 var $price;
 
-***🔹 8. Const vs Final vs Var vs Dynamic ***
+***🔹 1. Const vs Final vs Var vs Dynamic ***
 
 |Keyword | Can Reassign? | Type Fixed?|Constant?           |
 |--------|---------------|------------|--------------------|
@@ -12,7 +12,7 @@ var $price;
 |const   | ❌ No        |✅ Yes      |✅ Compile const
 |dynamic | ✅ Yes	   |❌ No	   |❌ No
 
-***🔹 9. Tips & Tricks***
+***🔹 2. Tips & Tricks***
 #**🎯 Tip 1: Prefer final for unchanging values**
 ```
 final name = 'Gemechu'; // Safer and more readable
@@ -30,7 +30,7 @@ print(name ?? 'Default'); // Output: Default
 ```
 
 #**🎯 Tip 5: Use var for short-term readability, but prefer explicit types for APIs and models.**
-##** 10. Example Class with Variables**
+##** 3. Example Class with Variables**
 ```
 class User {
   final String name;
@@ -44,7 +44,7 @@ class User {
   }
 }
 ```
-###***🔹 11. Shadowing Variables (Be Careful)***
+###***🔹 4. Shadowing Variables (Be Careful)***
 ```
 void main() {
   int x = 10;
@@ -55,7 +55,7 @@ void main() {
   print(x);     // 10
 }
 ````
-##**🔹 12. Constant Collections**
+##**🔹 5. Constant Collections**
 ```
 const List<int> numbers = [1, 2, 3];
 const Map<String, String> countries = {'ET': 'Ethiopia'};
