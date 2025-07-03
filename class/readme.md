@@ -56,7 +56,7 @@ const → Compile-time constant.
 
 Fields are initialized first → then constructors are executed.
 
-######***impletartion***
+***######impletartion***
 
 🎯 1. What is a Class?
 
