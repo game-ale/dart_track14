@@ -1,19 +1,31 @@
 **✅ PART 1: Core Concepts of Classes and OOP in Dart**
 #*🎯 1. What is a Class?*
+
 A class is a blueprint for creating objects. It defines the properties (variables) and behaviors (methods) of the objects.
-#*🔑 2. Creating an Object (Instance)#
+
+#*🔑 2. Creating an Object (Instance)*
+
 You can create objects from a class using the new keyword (optional in Dart).
+
 #*🧱 3. Fields and Methods*
+
 Fields: Variables inside the class (attributes)
 
 
 Methods: Functions inside the class (actions)
+
 #*🔧 4. Constructors*
+
 A constructor is a special method used to initialize objects.
+
 ➤ Default Constructor:
+
 ➤ Parameterized Constructor:
+
 ➤ Named Constructors:
+
 #*🔐 5. Access Modifiers (Encapsulation)*
+
 Dart has no public, private, or protected keywords.
 
 
@@ -22,20 +34,30 @@ But you can make a member private by prefixing it with an underscore (_).
 
 
 #*🌟 6. Getters and Setters*
+
 Use get and set to control access to private fields.
+
 #*⚙️ 7. Static Keyword*
+
 Static members belong to the class, not the instance.
+
 #*🔄 8. this Keyword*
+
 Refers to the current instance of the class.
+
 #*⚠️ 9. Final & Const in Classes*
+
 final → Variable is initialized once (runtime constant).
 
 
 const → Compile-time constant.
+
 #*⚡ 10. Object Initialization Order (Tip)*
+
 Fields are initialized first → then constructors are executed.
 
 ######***impletartion***
+
 🎯 1. What is a Class?
 
 ```
