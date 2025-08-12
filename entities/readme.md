@@ -39,7 +39,9 @@ Mapper conversions (from DTOs in data to Entities in domain)
 ```
 *** images ***
 
-![pictur](images/full course1.png)
+![picture]("images/full course1.png")
+
+
 
 
 3️⃣ How Entities Flow Through the Project
