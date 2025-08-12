@@ -39,7 +39,8 @@ Mapper conversions (from DTOs in data to Entities in domain)
 ```
 *** images ***
 
-![picture]("images/full course1.png")
+![Full Course 1](../images/full_course1.png)
+
 
 
 
